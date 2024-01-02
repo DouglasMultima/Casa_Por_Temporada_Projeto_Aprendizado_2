@@ -23,6 +23,7 @@
 
             <ImageButton
 
+                android:id="@+id/ib_voltar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_voltar_azul"
@@ -43,6 +44,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <EditText
+                    android:id="@+id/edit_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_edit"
@@ -51,6 +53,7 @@
                     android:padding="16dp" />
 
                 <EditText
+                    android:id="@+id/edit_senha"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
@@ -60,10 +63,13 @@
                     android:padding="16dp" />
 
                 <android.widget.Button
+
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:background="@drawable/bg_btn"
+                    android:onClick="validaDados"
                     android:text="Entrar"
                     android:textAllCaps="false"
                     android:textColor="@android:color/white" />
@@ -94,6 +100,16 @@
                         android:textColor="#9CD0FC" />
 
                 </LinearLayout>
+
+                <ProgressBar
+
+                    android:id="@+id/progressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:indeterminateTint="@color/azul_padrao"/>
 
 
             </LinearLayout>

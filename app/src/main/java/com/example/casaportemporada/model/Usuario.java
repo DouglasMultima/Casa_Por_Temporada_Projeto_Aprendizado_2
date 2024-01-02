@@ -56,11 +56,12 @@ public class Usuario {
         this.telefone = telefone;
     }
 
+
+    @Exclude
     public String getSenha() {
         return senha;
     }
 
-    @Exclude
 
     public void setSenha(String senha) {
         this.senha = senha;

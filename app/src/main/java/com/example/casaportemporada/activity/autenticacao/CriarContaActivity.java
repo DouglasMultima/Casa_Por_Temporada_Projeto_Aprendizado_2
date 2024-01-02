@@ -119,6 +119,7 @@ public class CriarContaActivity extends AppCompatActivity {
 
             }else{
 
+                progressBar.setVisibility(View.GONE);
                 String error = task.getException().getMessage();
                 Toast.makeText(this, error, Toast.LENGTH_SHORT).show();
 
@@ -149,6 +150,7 @@ public class CriarContaActivity extends AppCompatActivity {
         TextView text_titulo = findViewById(R.id.text_titulo);
         text_titulo.setText("Crie sua conta");
 
+      //  TextView text_titulo = findViewById(R.id.text_titulo_anuncio); Text view text_titulo vem do "layout" toolbar_voltar.xml
 
     }
 
