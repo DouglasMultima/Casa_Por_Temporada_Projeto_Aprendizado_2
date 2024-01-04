@@ -9,7 +9,11 @@ Imagens ilustrativas do que os códigos tendem a realizar, criação de conta, e
 ![local_para_inserir_novo_anuncio](https://github.com/DouglasMultima/Casa_Por_Temporada_Projeto_Aprendizado_2/assets/107684410/5485e2e0-1446-4dfc-b21c-981032cfe975)
 ![Perfil_do_usuario_tela](https://github.com/DouglasMultima/Casa_Por_Temporada_Projeto_Aprendizado_2/assets/107684410/3b0cccc9-60ad-44ae-a1f0-0f96968335d8)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Com o perfil logado você poderá criar ou editar seus anuncios.
+
+![Edição_do_anuncio](https://github.com/DouglasMultima/Casa_Por_Temporada_Projeto_Aprendizado_2/assets/107684410/0cf1e961-210a-4cf9-bb82-53a86d5aff4e)
 
 
 
